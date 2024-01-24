@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E9F6FF;
+}
+
+#result {
+
+    max-width: 90%;
+    margin-inline: auto;
+    font-family: 'Inter', sans-serif;
+
+    header {
+
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            font-size: 48px;
+            font-family: 'Playfair Display', serif;
+            color: #FE7A36;
+
+            @media screen and (max-width:500px) {
+                font-size: 32px;
+            }
+        }
+
+    }
+
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 20px;
+
+        .sem {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .title {
+                h2 {
+                    color: #3652AD;
+                }
+            }
+
+            .btn {
+                display: flex;
+                gap: 15px;
+
+                @media screen and (max-width:390px) {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                button {
+                    height: 48px;
+                    width: 190px;
+                    padding: 0 10px;
+                    border-radius: 8px;
+                    border: 0;
+                    outline: none;
+                    background-color: #FF9843;
+                    color: white;
+                    font-size: 18px;
+
+                    @media screen and (max-width:640px) {
+                        width: unset;
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (min-width:1024px) {
+                    button:hover {
+                        cursor: pointer;
+                        background-color: white;
+                        color: #FF9843;
+                        font-weight: 600;
+                        border: 1px solid #FF9843;
+                    }
+                }
+
+                @media screen and (max-width:1024px) {
+                    button:active {
+                        background-color: white;
+                        color: #FF9843;
+                        font-weight: 600;
+                        border: 1px solid #FF9843;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+}
