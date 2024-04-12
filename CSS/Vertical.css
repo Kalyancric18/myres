@@ -92,7 +92,7 @@ nav.vertical li:hover>ul {
     font-family: Arial, Arial;
     font-size: 13px;
     font-weight: bold;
-    background-image: url(Images/MainLoginheader.jpg);
+    background-image: url(../Images/MainLoginheader.jpg);
 }
 
 .labelColor {
@@ -103,14 +103,14 @@ nav.vertical li:hover>ul {
 }
 
 .list {
-    background: url(Images/arrow.png) right no-repeat !important;
+    background: url(../Images/arrow.png) right no-repeat !important;
     padding-right: 10px;
     /*background-color:#97c700 !important;*/
     height: 16px;
 }
 
 .list:hover {
-    background: url(Images/arrow.png) right no-repeat !important;
+    background: url(../Images/arrow.png) right no-repeat !important;
     padding-right: 10px;
     background-color: #9a007b !important;
     height: 16px;
